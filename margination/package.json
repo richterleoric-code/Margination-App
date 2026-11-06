@@ -1,0 +1,15 @@
+{
+  "name": "margination",
+  "version": "1.0.0",
+  "description": "Margination — an AI-powered reading companion. See the words. Stay in the story.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "test": "node --test"
+  }
+}
